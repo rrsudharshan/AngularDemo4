@@ -19,7 +19,6 @@ import { UserService } from '../../shared/services/user.service';
           <button (click)="save()" class="btn btn-success">Save</button>
         </div>
       </div>
-
     </div>
   `
 })

@@ -21,7 +21,7 @@ var DashboardUsersComponent = /** @class */ (function () {
     };
     DashboardUsersComponent = __decorate([
         core_1.Component({
-            template: "\n    <h2>Users Section</h2>\n    <p>Manage your users.</p>\n\n    <div class=\"row\">\n\n      <div class=\"col-sm-4\">\n\n        <div *ngIf=\"users\" class=\"list-group\">\n          <a *ngFor=\"let user of users\" \n            class=\"list-group-item\"\n            [routerLink]=\"['/dashboard/users', user.username]\">\n              {{ user.name }}\n          </a>\n        </div>\n        \n      </div>\n      <div class=\"col-sm-8\">\n\n        <router-outlet></router-outlet>\n\n      </div>\n\n    </div>\n  "
+            template: "\n    <h2>Users Section</h2>\n    <p>Manage your users.</p>\n\n    <div class=\"row\">\n\n      <div class=\"col-sm-4\">\n\n        <div *ngIf=\"users\" class=\"list-group\">\n          <a *ngFor=\"let user of users\" \n            class=\"list-group-item\"\n            [routerLink]=\"['/dashboard/users', user.username]\">\n              {{ user.name }}\n          </a>\n        </div>\n        \n      </div>\n      <div class=\"col-sm-8\">\n        <router-outlet></router-outlet>\n\n      </div>\n\n    </div>\n  "
         }),
         __metadata("design:paramtypes", [user_service_1.UserService])
     ], DashboardUsersComponent);

@@ -30,9 +30,7 @@ import { User } from '../shared/models/user';
             {{ user.username }}
           </a></p>
         </div>
-
       </div>
-
     </div>
   `
 })

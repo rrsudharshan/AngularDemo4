@@ -21,7 +21,6 @@ import { UserService } from '../../shared/services/user.service';
         
       </div>
       <div class="col-sm-8">
-
         <router-outlet></router-outlet>
 
       </div>
